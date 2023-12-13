@@ -139,3 +139,6 @@ telegram.sendMessage(message.chat.id, "CodeDay ends *" + endsAt.fromNow() + "*!"
 });
 ```
 Ora eseguiamo il comando `/codeday` e dovrebbe apparire questo:
+<p align="center">
+  <img src="url_dell_immagine"/>
+</p>
