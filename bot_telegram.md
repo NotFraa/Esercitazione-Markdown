@@ -24,7 +24,7 @@ npm init
 Questo dirà al client **npm** di inizializzare la nostra project directory con un `package.json` predefinito.
 Cliccate Invio a tutti i prompts, possiamo occuparci di “compilaro” più tardi.
 ## Step 2: Installate i pacchetti necessari
-Per questo progetto, abbiamo bisogno soltanto di 1 pacchetto npm.
+Per questo progetto, abbiamo bisogno soltanto di 1 pacchetto npm.  
 Un pacchetto npm è sostanzialmente un pezzo di codice nel registro npm che possiamo scaricare con un
 semplice comando, `npm install` .
 
@@ -35,11 +35,11 @@ npm install--save node-telegram-bot-api
 La parte `--save` indica a npm di salvare questo pacchetto nel nostro **package.json** cosicché sarà più
 facile installarlo dopo, senza ulteriori complicanze.
 ## Step 3: creare il bot Telegram
-Su Telegram, contattate **@botfather** e usate il comando `/newbot` per creare un nuovo bot.
+Su Telegram, contattate **@botfather** e usate il comando `/newbot` per creare un nuovo bot.  
 Chiamatelo come preferite.
 ## Step 4: scriviamo un po di codice!
-Adesso che abbiamo il nostro bot, possiamo usarlo per interfacciarci con Telegram e le sue API.
-Create un file index.js nella vostra project directory, poi apritelo nel vostro text editor preferito.
+Adesso che abbiamo il nostro bot, possiamo usarlo per interfacciarci con Telegram e le sue API.  
+Create un file index.js nella vostra project directory, poi apritelo nel vostro text editor preferito.  
 Qui c’è qualche semplice codice “Hello world” che ho scritto per assistervi in questo step.
 ```
 var TelegramBot = require('node-telegram-bot-api'),
@@ -92,7 +92,7 @@ var Clear = require('codeday-clear'),
 var moment = require('moment');
 ```
 Questo codice dovrebbe andare bene dopo che abbiamo già dichiarato l’istanza di Telegram. Ora che
-abbiamo i nostri esempi con Clear e moment dichiarati, possiamo usarli in un semplice comando.
+abbiamo i nostri esempi con Clear e moment dichiarati, possiamo usarli in un semplice comando.  
 Sostituiamo il codice dentro l’evento “text” con qualcosa del genere:
 ```
 telegram.on("text", (message) => {
@@ -133,6 +133,8 @@ Ora eseguiamo il comando `/codeday` e dovrebbe apparire questo:
 <p align="center">
   <img src="https://raw.githubusercontent.com/NotFraa/Esercitazione-Markdown/main/telegram-markdown.png"/>
 </p>
+Telegram supporta anche corsivo, codice in linea, blocchi di codice e URL in linea insieme all’opzione
+grassetto che abbiamo appena usato.
 
 ## Inline bot di Telegram
 Questa parte spiegherà come trasformare questo bot in un **bot in linea**, che può essere richiamato da
