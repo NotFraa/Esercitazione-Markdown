@@ -140,5 +140,18 @@ telegram.sendMessage(message.chat.id, "CodeDay ends *" + endsAt.fromNow() + "*!"
 ```
 Ora eseguiamo il comando `/codeday` e dovrebbe apparire questo:
 <p align="center">
-  <img src="url_dell_immagine"/>
+  <img src="https://raw.githubusercontent.com/NotFraa/Esercitazione-Markdown/main/telegram-markdown.png"/>
+</p>
+
+## Inline bot di Telegram
+Questa parte spiegherà come trasformare questo bot in un **bot in linea**, che può essere richiamato da
+qualsiasi parte e aiuta gli utenti a trovare e inviare contenuti al vostro bot. I Bot in linea infatti permettono
+l’invio di contenuti più strutturati e di seguire determinati “flow” scritti all’interno del nostro bot per
+svolgere le azioni più disparate.
+## Step 0: Abilita la modalità in linea in Botfather
+I bot non hanno la modalità in linea abilitata di default, quindi avrai bisogno di inviare il
+comando `/setinline` a Botfather per abilitarla.  
+Puoi usare qualsiasi cosa come segnaposto testuale, io ho usato “Search Codeday...” per il mio.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NotFraa/Esercitazione-Markdown/main/telegram-markdown.png"/>
 </p>
